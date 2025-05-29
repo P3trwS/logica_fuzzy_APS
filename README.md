@@ -47,8 +47,6 @@ desbal     = ctrl.Antecedent(np.arange(  0,     11, 1),  'desbalanceamento_carga
 * **carga\_aplicada**: 0 % a 100 %, passo 1 %
 * **desbalanceamento\_carga**: 0 % a 10 %, passo 1 %
 
-> **Observação:** Ainda faltam as definições de funções de pertinência para cada um desses antecedentes (e.g. “baixo”, “médio”, “alto”). Normalmente usam-se triângulos (`fuzz.trimf`) ou trapézios (`fuzz.trapmf`).
-
 ---
 
 ## 3. Definição da Variável Consequente (Output)
